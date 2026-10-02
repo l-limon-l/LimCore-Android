@@ -1,31 +1,31 @@
 {
-  "versionCode": 9,
-  "versionName": "1.0.7",
-  "date": "2026-10-01",
+  "versionCode": 10,
+  "versionName": "1.0.8",
+  "date": "2026-10-02",
   "notes": {
-    "ru": "- Обновлены поля и окна ввода.\n- Сокращены описания настроек.\n- Адрес проверки пинга помещается в одну строку.\n- Настройки сохраняют позицию прокрутки при возврате.",
-    "en": "- Updated input fields and dialogs.\n- Shortened settings descriptions.\n- The ping test address fits on one line.\n- Settings keep the scroll position on return."
+    "ru": "- Флаги серверов отображаются квадратными изображениями.\n- Серверы без флага отображаются со значком глобуса.",
+    "en": "- Server flags are shown as square images.\n- Servers without a flag show a globe icon."
   },
   "apks": {
     "arm64-v8a": {
       "file": "apk/LimCore-arm64-v8a.apk",
-      "size": 22403338,
-      "sha256": "93c0d6ecd924a81e99740800ffdc47b5252167c0102c1916331eb1a7a6ab57ee"
+      "size": 22780480,
+      "sha256": "16037f1a68ab331a6f811beff38eb96ea68bdc60b06cb1d40c952de5e385e7aa"
     },
     "armeabi-v7a": {
       "file": "apk/LimCore-armeabi-v7a.apk",
-      "size": 22907836,
-      "sha256": "24f49565027aac8b587bf53eec6647c0628af21d1c1fc4d3252aa6193d16cdc5"
+      "size": 23284994,
+      "sha256": "9be5ed5cb7f781efbcfecfdb62773a67197e0910242bce2a32097190eb0324a3"
     },
     "x86_64": {
       "file": "apk/LimCore-x86_64.apk",
-      "size": 23419119,
-      "sha256": "9120eed13bed0cdaedccd58549b7ff2525aee565ebb04868847d8ae22fc37be3"
+      "size": 23796257,
+      "sha256": "b557d0ffd58b20a615854ae85ce294adfc071b3ccef9022c29b481eb4b26223f"
     },
     "universal": {
       "file": "apk/LimCore-universal.apk",
-      "size": 48320798,
-      "sha256": "048d44d45bad3a8b0bbd5c8c7c618752e7049aa3a1bb797f89f1a6d0ca8d03a7"
+      "size": 48698052,
+      "sha256": "6ba1f0d516d5ddf7110098ab11d75e48312b1fa7575329e182b8f6595ddc53ad"
     }
   }
 }
