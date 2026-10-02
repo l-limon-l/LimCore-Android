@@ -1,0 +1,31 @@
+{
+  "versionCode": 9,
+  "versionName": "1.0.7",
+  "date": "2026-10-01",
+  "notes": {
+    "ru": "- Обновлены поля и окна ввода.\n- Сокращены описания настроек.\n- Адрес проверки пинга помещается в одну строку.\n- Настройки сохраняют позицию прокрутки при возврате.",
+    "en": "- Updated input fields and dialogs.\n- Shortened settings descriptions.\n- The ping test address fits on one line.\n- Settings keep the scroll position on return."
+  },
+  "apks": {
+    "arm64-v8a": {
+      "file": "apk/LimCore-arm64-v8a.apk",
+      "size": 22403338,
+      "sha256": "93c0d6ecd924a81e99740800ffdc47b5252167c0102c1916331eb1a7a6ab57ee"
+    },
+    "armeabi-v7a": {
+      "file": "apk/LimCore-armeabi-v7a.apk",
+      "size": 22907836,
+      "sha256": "24f49565027aac8b587bf53eec6647c0628af21d1c1fc4d3252aa6193d16cdc5"
+    },
+    "x86_64": {
+      "file": "apk/LimCore-x86_64.apk",
+      "size": 23419119,
+      "sha256": "9120eed13bed0cdaedccd58549b7ff2525aee565ebb04868847d8ae22fc37be3"
+    },
+    "universal": {
+      "file": "apk/LimCore-universal.apk",
+      "size": 48320798,
+      "sha256": "048d44d45bad3a8b0bbd5c8c7c618752e7049aa3a1bb797f89f1a6d0ca8d03a7"
+    }
+  }
+}
