@@ -1,31 +1,31 @@
 {
-  "versionCode": 11,
-  "versionName": "1.0.9",
+  "versionCode": 12,
+  "versionName": "1.0.10",
   "date": "2026-10-03",
   "notes": {
-    "ru": "- Добавлен выбор российских приложений для работы без VPN.\n- Список российских приложений обновляется автоматически.\n- Добавлена отправка новых российских приложений в общий список с согласия пользователя.",
-    "en": "- Added selection of Russian apps to work without the VPN.\n- The Russian apps list updates automatically.\n- Added sending new Russian apps to the shared list with the user's consent."
+    "ru": "- Пинг серверов отображается временем.\n- Добавлена кнопка «Выбрать российские приложения».\n- Расширен список российских приложений.\n- Окно пополнения списка показывает все найденные приложения.",
+    "en": "- Server delays are shown as time.\n- Added the \"Select Russian apps\" button.\n- Extended the Russian apps list.\n- The list suggestion window shows all found apps."
   },
   "apks": {
     "arm64-v8a": {
       "file": "apk/LimCore-arm64-v8a.apk",
-      "size": 22801036,
-      "sha256": "28b0fea00c30411271bcb0349f822e080d42ccd419d31c0e32f1e5027ad7e4ec"
+      "size": 22800792,
+      "sha256": "2b43778f74ef47b8de01d9e2213e69a0c060a8fe46c22923e190415e3eb55530"
     },
     "armeabi-v7a": {
       "file": "apk/LimCore-armeabi-v7a.apk",
-      "size": 23305010,
-      "sha256": "ec1770f2721fbe429f03433d24209dda7dde5f7c3ce6ce5ecf507ca1da7e81e7"
+      "size": 23304766,
+      "sha256": "1605952f2f1fceca1ae03efce3651bdaba1599097384f8ab61f005715fb9ed82"
     },
     "x86_64": {
       "file": "apk/LimCore-x86_64.apk",
-      "size": 23817825,
-      "sha256": "efaf6e8080b487755adef716303e2ad87e87753cf643a872623b08e52b45d026"
+      "size": 23817585,
+      "sha256": "7ebd3c9e96e9eb80a0a81c3003e0b4cbfa6a10193b386ca0bbac545fcbd06a0f"
     },
     "universal": {
       "file": "apk/LimCore-universal.apk",
-      "size": 48722000,
-      "sha256": "3a63cddb5fe761a18443220e0d7d8629cf9b2a320ab189a1b16a3feabfd36be7"
+      "size": 48721756,
+      "sha256": "2727df7258d35fc0cb3fda7ce5afc40a4ea03b8c91970787d23a1f6a0499af71"
     }
   }
 }
