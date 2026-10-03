@@ -1,31 +1,31 @@
 {
-  "versionCode": 10,
-  "versionName": "1.0.8",
-  "date": "2026-10-02",
+  "versionCode": 11,
+  "versionName": "1.0.9",
+  "date": "2026-10-03",
   "notes": {
-    "ru": "- Флаги серверов отображаются квадратными изображениями.\n- Серверы без флага отображаются со значком глобуса.",
-    "en": "- Server flags are shown as square images.\n- Servers without a flag show a globe icon."
+    "ru": "- Добавлен выбор российских приложений для работы без VPN.\n- Список российских приложений обновляется автоматически.\n- Добавлена отправка новых российских приложений в общий список с согласия пользователя.",
+    "en": "- Added selection of Russian apps to work without the VPN.\n- The Russian apps list updates automatically.\n- Added sending new Russian apps to the shared list with the user's consent."
   },
   "apks": {
     "arm64-v8a": {
       "file": "apk/LimCore-arm64-v8a.apk",
-      "size": 22780480,
-      "sha256": "16037f1a68ab331a6f811beff38eb96ea68bdc60b06cb1d40c952de5e385e7aa"
+      "size": 22801036,
+      "sha256": "28b0fea00c30411271bcb0349f822e080d42ccd419d31c0e32f1e5027ad7e4ec"
     },
     "armeabi-v7a": {
       "file": "apk/LimCore-armeabi-v7a.apk",
-      "size": 23284994,
-      "sha256": "9be5ed5cb7f781efbcfecfdb62773a67197e0910242bce2a32097190eb0324a3"
+      "size": 23305010,
+      "sha256": "ec1770f2721fbe429f03433d24209dda7dde5f7c3ce6ce5ecf507ca1da7e81e7"
     },
     "x86_64": {
       "file": "apk/LimCore-x86_64.apk",
-      "size": 23796257,
-      "sha256": "b557d0ffd58b20a615854ae85ce294adfc071b3ccef9022c29b481eb4b26223f"
+      "size": 23817825,
+      "sha256": "efaf6e8080b487755adef716303e2ad87e87753cf643a872623b08e52b45d026"
     },
     "universal": {
       "file": "apk/LimCore-universal.apk",
-      "size": 48698052,
-      "sha256": "6ba1f0d516d5ddf7110098ab11d75e48312b1fa7575329e182b8f6595ddc53ad"
+      "size": 48722000,
+      "sha256": "3a63cddb5fe761a18443220e0d7d8629cf9b2a320ab189a1b16a3feabfd36be7"
     }
   }
 }
