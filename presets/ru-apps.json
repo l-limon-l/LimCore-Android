@@ -1,6 +1,8 @@
 {
   "prefixes": [
-    "ru.redmond."
+    "ru.redmond.",
+    "ru.beru.",
+    "ru.auto."
   ],
   "packages": [
     "com.ayracoder.test",
