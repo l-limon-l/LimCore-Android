@@ -99,7 +99,16 @@
     "com.yota.",
     "ru.redmond.",
     "ru.beru.",
-    "ru.auto."
+    "ru.auto.",
+    "ru.sportmaster.",
+    "ru.dnevnik.",
+    "ru.sravni.",
+    "ru.stoloto.",
+    "ru.farpost.",
+    "ru.crptech.",
+    "ru.gibdd_pay.",
+    "ru.ekomobile.",
+    "ru.fiery_wolf."
   ],
   "packages": [
     "com.mts.mymts",
