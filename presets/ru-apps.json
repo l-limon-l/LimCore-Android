@@ -1,4 +1,9 @@
 {
-  "prefixes": [],
-  "packages": []
+  "prefixes": [
+    "ru.redmond."
+  ],
+  "packages": [
+    "com.ayracoder.test",
+    "com.tsybulskiy.sinarai.domofon"
+  ]
 }
