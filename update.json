@@ -1,31 +1,31 @@
 {
-  "versionCode": 12,
-  "versionName": "1.0.10",
+  "versionCode": 13,
+  "versionName": "1.0.11",
   "date": "2026-10-03",
   "notes": {
-    "ru": "- Пинг серверов отображается временем.\n- Добавлена кнопка «Выбрать российские приложения».\n- Расширен список российских приложений.\n- Окно пополнения списка показывает все найденные приложения.",
-    "en": "- Server delays are shown as time.\n- Added the \"Select Russian apps\" button.\n- Extended the Russian apps list.\n- The list suggestion window shows all found apps."
+    "ru": "- Исправлено обновление списка российских приложений.",
+    "en": "- Fixed updating of the Russian apps list."
   },
   "apks": {
     "arm64-v8a": {
       "file": "apk/LimCore-arm64-v8a.apk",
-      "size": 22800792,
-      "sha256": "2b43778f74ef47b8de01d9e2213e69a0c060a8fe46c22923e190415e3eb55530"
+      "size": 22801744,
+      "sha256": "56b101e611e38678ff7b7898dfcede28738bc95a436a967fe493323729caa193"
     },
     "armeabi-v7a": {
       "file": "apk/LimCore-armeabi-v7a.apk",
-      "size": 23304766,
-      "sha256": "1605952f2f1fceca1ae03efce3651bdaba1599097384f8ab61f005715fb9ed82"
+      "size": 23305718,
+      "sha256": "cae2f4218e8b3be4821e6fdff7508a5a6eadc8d581965ef60c33168d87a9f69b"
     },
     "x86_64": {
       "file": "apk/LimCore-x86_64.apk",
-      "size": 23817585,
-      "sha256": "7ebd3c9e96e9eb80a0a81c3003e0b4cbfa6a10193b386ca0bbac545fcbd06a0f"
+      "size": 23818537,
+      "sha256": "1480847edcc5d3aa7750c1ecf550c64bdbc79fc93471f491b813d6070a29bab8"
     },
     "universal": {
       "file": "apk/LimCore-universal.apk",
-      "size": 48721756,
-      "sha256": "2727df7258d35fc0cb3fda7ce5afc40a4ea03b8c91970787d23a1f6a0499af71"
+      "size": 48722708,
+      "sha256": "c8302fd477b1145c2cbedcc60b5ed71b90637c44162e757c00c98d8314a68db8"
     }
   }
 }
