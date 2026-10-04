@@ -1,31 +1,31 @@
 {
-  "versionCode": 13,
-  "versionName": "1.0.11",
-  "date": "2026-10-03",
+  "versionCode": 14,
+  "versionName": "1.0.12",
+  "date": "2026-10-04",
   "notes": {
-    "ru": "- Исправлено обновление списка российских приложений.",
-    "en": "- Fixed updating of the Russian apps list."
+    "ru": "- Подключение перезапускается автоматически после изменения настроек.\n- Изменения раздельного туннелирования, исключённых маршрутов, MTU и IPv6 применяются к активному подключению.",
+    "en": "- The connection restarts automatically after settings change.\n- Per-app proxy, excluded routes, MTU and IPv6 changes apply to an active connection."
   },
   "apks": {
     "arm64-v8a": {
       "file": "apk/LimCore-arm64-v8a.apk",
-      "size": 22801744,
-      "sha256": "56b101e611e38678ff7b7898dfcede28738bc95a436a967fe493323729caa193"
+      "size": 22802472,
+      "sha256": "acaaf3258cf795df580ad68cc61a47237aa3910cebf8e0bd90300835f643f22d"
     },
     "armeabi-v7a": {
       "file": "apk/LimCore-armeabi-v7a.apk",
-      "size": 23305718,
-      "sha256": "cae2f4218e8b3be4821e6fdff7508a5a6eadc8d581965ef60c33168d87a9f69b"
+      "size": 23306890,
+      "sha256": "b7a477681a7d6a24fc983bf0a45a2e481068230bfd34fc54214595a74d6c906a"
     },
     "x86_64": {
       "file": "apk/LimCore-x86_64.apk",
-      "size": 23818537,
-      "sha256": "1480847edcc5d3aa7750c1ecf550c64bdbc79fc93471f491b813d6070a29bab8"
+      "size": 23818909,
+      "sha256": "aab040b745edfba605db4b379676cfbfb5c6c904688bf3b4e6b2b5b1efe81216"
     },
     "universal": {
       "file": "apk/LimCore-universal.apk",
-      "size": 48722708,
-      "sha256": "c8302fd477b1145c2cbedcc60b5ed71b90637c44162e757c00c98d8314a68db8"
+      "size": 48722504,
+      "sha256": "54cb02b4cbc6729659450cfae86969fff6e3152aa5f41f0c7140022d5bdb6665"
     }
   }
 }
