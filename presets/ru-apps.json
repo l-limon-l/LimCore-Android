@@ -134,7 +134,14 @@
     "ru.spasibo.",
     "ru.android.nmp",
     "com.gpn.",
-    "ru.fourpda."
+    "ru.fourpda.",
+    "ru.bestprice.",
+    "ru.sunlight.",
+    "ru.detmir.",
+    "ru.eshe",
+    "ru.zdravcity.",
+    "ru.domopult.",
+    "ru.superapteka."
   ],
   "packages": [
     "com.mts.mymts",
@@ -149,6 +156,10 @@
     "com.ru.dixy",
     "com.coolclever.app",
     "cirkasssian.nekuru",
-    "com.vafin.flutter_moonshiner_calculator"
+    "com.vafin.flutter_moonshiner_calculator",
+    "com.hbdevelopment.helper",
+    "com.platfomni.asna",
+    "com.co_ko_sushi_ru.huawei",
+    "club.chizhik"
   ]
 }
