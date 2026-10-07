@@ -1,2 +1,2 @@
-ad_show: 0
+ad_show: 1
 ad_url: https://t.me/ShizaVladikaaa
