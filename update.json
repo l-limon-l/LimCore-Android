@@ -1,31 +1,31 @@
 {
-  "versionCode": 14,
-  "versionName": "1.0.12",
-  "date": "2026-10-04",
+  "versionCode": 15,
+  "versionName": "2.0.0",
+  "date": "2026-10-07",
   "notes": {
-    "ru": "- Подключение перезапускается автоматически после изменения настроек.\n- Изменения раздельного туннелирования, исключённых маршрутов, MTU и IPv6 применяются к активному подключению.",
-    "en": "- The connection restarts automatically after settings change.\n- Per-app proxy, excluded routes, MTU and IPv6 changes apply to an active connection."
+    "ru": "- Добавлена настройка цветов для светлой и тёмной темы по отдельности.\n- Добавлены готовые палитры, свой акцент и цвета обоев.\n- Добавлены градиенты: миксы двух цветов, градиент кнопки подключения и фона.\n- Любой цвет интерфейса меняется вручную.\n- Добавлены экспорт и импорт цветов.",
+    "en": "- Added color customization for the light and dark themes separately.\n- Added ready palettes, a custom accent and wallpaper colors.\n- Added gradients: two-color mixes, gradient power button and background.\n- Any interface color can be changed manually.\n- Added color export and import."
   },
   "apks": {
     "arm64-v8a": {
       "file": "apk/LimCore-arm64-v8a.apk",
-      "size": 22802472,
-      "sha256": "acaaf3258cf795df580ad68cc61a47237aa3910cebf8e0bd90300835f643f22d"
+      "size": 22904024,
+      "sha256": "c584961726040981f16c88c10e967d26383dd0ac027ac23be3f7bcb8c16fd157"
     },
     "armeabi-v7a": {
       "file": "apk/LimCore-armeabi-v7a.apk",
-      "size": 23306890,
-      "sha256": "b7a477681a7d6a24fc983bf0a45a2e481068230bfd34fc54214595a74d6c906a"
+      "size": 23407998,
+      "sha256": "1c24a1e1f19e5ef987b86819b5c84817292c6687e7964f33b0122f3a071568b5"
     },
     "x86_64": {
       "file": "apk/LimCore-x86_64.apk",
-      "size": 23818909,
-      "sha256": "aab040b745edfba605db4b379676cfbfb5c6c904688bf3b4e6b2b5b1efe81216"
+      "size": 23920813,
+      "sha256": "dda8f86678eafbee479f936b4adf125a7482b63b028cd2d68e3c8460168e6145"
     },
     "universal": {
       "file": "apk/LimCore-universal.apk",
-      "size": 48722504,
-      "sha256": "54cb02b4cbc6729659450cfae86969fff6e3152aa5f41f0c7140022d5bdb6665"
+      "size": 48824988,
+      "sha256": "d021b5e5c12e34d573c399076ddf103ebabef22d1d75394513fa5fe5af5967af"
     }
   }
 }
