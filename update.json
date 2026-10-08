@@ -1,31 +1,31 @@
 {
-  "versionCode": 18,
-  "versionName": "2.1.2",
+  "versionCode": 19,
+  "versionName": "2.1.3",
   "date": "2026-10-08",
   "notes": {
-    "ru": "- Кнопка «Скрыть все» перенесена в иконку под «+».",
-    "en": "- The \"Hide all\" button is now an icon under \"+\"."
+    "ru": "- Обновлены внутренние компоненты.",
+    "en": "- Internal components updated."
   },
   "apks": {
     "arm64-v8a": {
       "file": "apk/LimCore-arm64-v8a.apk",
-      "size": 22932384,
-      "sha256": "9e42543ef98eff7039ff6282d30182c701b048c51b9ad4b45085ff882ba88578"
+      "size": 22932780,
+      "sha256": "30f7112a7b05122c585b2f9f9d0675d04835a859489938f8a63ac653cfc9f023"
     },
     "armeabi-v7a": {
       "file": "apk/LimCore-armeabi-v7a.apk",
-      "size": 23440374,
-      "sha256": "623fd172a1682df9e444d44d5a1c936b30a3b3fc165bc9e3c1d5c9934d74d3ff"
+      "size": 23440774,
+      "sha256": "fd6297e8e71d4feac8e737b1b2ecccb5d42f9b72b71acd5a3dbb28354eb5bdf5"
     },
     "x86_64": {
       "file": "apk/LimCore-x86_64.apk",
-      "size": 23953609,
-      "sha256": "ffc418c8ac14b111b45777e753c4b49547b4268a06fa8c1397cdc649862c679d"
+      "size": 23954005,
+      "sha256": "fd8578fee48d671c86108a4504f5214b0b1101ff95ce4e9fb36adf554e1d0327"
     },
     "universal": {
       "file": "apk/LimCore-universal.apk",
-      "size": 48872996,
-      "sha256": "566a5221b0ea417424bf61de80da1115dc704cab0aad34a8d0c31a14f3b831e9"
+      "size": 48873392,
+      "sha256": "ae409b3339f4b234464e5e6c600c92a3e4ed1dfe512a1a88cf5f0cfde5b50379"
     }
   }
 }
