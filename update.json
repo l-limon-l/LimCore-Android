@@ -1,31 +1,31 @@
 {
-  "versionCode": 17,
-  "versionName": "2.1.1",
+  "versionCode": 18,
+  "versionName": "2.1.2",
   "date": "2026-10-08",
   "notes": {
-    "ru": "- Карточка рекламы закреплена над списком серверов.\n- Новая иконка, которая перекрашивается под цвета темы телефона.\n- Градиент акцента работает только с миксом двух цветов.\n- Угол градиентного фона настраивается ползунком.",
-    "en": "- The promo card stays above the server list.\n- New icon that follows the phone's theme colors.\n- The accent gradient works only with a two-color mix.\n- The background gradient angle is set with a slider."
+    "ru": "- Кнопка «Скрыть все» перенесена в иконку под «+».",
+    "en": "- The \"Hide all\" button is now an icon under \"+\"."
   },
   "apks": {
     "arm64-v8a": {
       "file": "apk/LimCore-arm64-v8a.apk",
-      "size": 22931484,
-      "sha256": "b91216f454350381d75f7e733b9cb6f12ec9dad2ce314d608351df2e87ce1f23"
+      "size": 22932384,
+      "sha256": "9e42543ef98eff7039ff6282d30182c701b048c51b9ad4b45085ff882ba88578"
     },
     "armeabi-v7a": {
       "file": "apk/LimCore-armeabi-v7a.apk",
-      "size": 23439474,
-      "sha256": "ce7c5b4bdea959615464c2baf6ca84ae37f4f45574274e657ddccbba20573411"
+      "size": 23440374,
+      "sha256": "623fd172a1682df9e444d44d5a1c936b30a3b3fc165bc9e3c1d5c9934d74d3ff"
     },
     "x86_64": {
       "file": "apk/LimCore-x86_64.apk",
-      "size": 23952705,
-      "sha256": "fd99e37da796f33bd9a970cfc1c1f4262380938c23552271f492298b9f970dfb"
+      "size": 23953609,
+      "sha256": "ffc418c8ac14b111b45777e753c4b49547b4268a06fa8c1397cdc649862c679d"
     },
     "universal": {
       "file": "apk/LimCore-universal.apk",
-      "size": 48872096,
-      "sha256": "af7ebc0bf0b45a8858a28765cdb406efbf53eb38cfd5778d590e469dbfc841bc"
+      "size": 48872996,
+      "sha256": "566a5221b0ea417424bf61de80da1115dc704cab0aad34a8d0c31a14f3b831e9"
     }
   }
 }
