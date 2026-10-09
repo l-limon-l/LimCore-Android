@@ -1,31 +1,31 @@
 {
-  "versionCode": 19,
-  "versionName": "2.1.3",
-  "date": "2026-10-08",
+  "versionCode": 20,
+  "versionName": "2.1.4",
+  "date": "2026-10-09",
   "notes": {
-    "ru": "- Обновлены внутренние компоненты.",
-    "en": "- Internal components updated."
+    "ru": "- Исправлена проверка задержки для серверов, которые не открывают сайт проверки.\n- Исправлено автопереключение серверов в балансерах.",
+    "en": "- Fixed the delay test for servers that do not open the test site.\n- Fixed automatic server switching in balancers."
   },
   "apks": {
     "arm64-v8a": {
       "file": "apk/LimCore-arm64-v8a.apk",
-      "size": 22932780,
-      "sha256": "30f7112a7b05122c585b2f9f9d0675d04835a859489938f8a63ac653cfc9f023"
+      "size": 22934416,
+      "sha256": "c28a9a27eb96d85bab5971fe0123b26f4c4d036585a642f4f167a419547eb74d"
     },
     "armeabi-v7a": {
       "file": "apk/LimCore-armeabi-v7a.apk",
-      "size": 23440774,
-      "sha256": "fd6297e8e71d4feac8e737b1b2ecccb5d42f9b72b71acd5a3dbb28354eb5bdf5"
+      "size": 23441578,
+      "sha256": "dc1a5b6e28b8367064b5fefc9299b516b96773b3f0e201a83631f0d120cffaee"
     },
     "x86_64": {
       "file": "apk/LimCore-x86_64.apk",
-      "size": 23954005,
-      "sha256": "fd8578fee48d671c86108a4504f5214b0b1101ff95ce4e9fb36adf554e1d0327"
+      "size": 23954781,
+      "sha256": "156015504afd25882622b9be6bf5bbf6b534c139ad901501978cc1a506d262a1"
     },
     "universal": {
       "file": "apk/LimCore-universal.apk",
-      "size": 48873392,
-      "sha256": "ae409b3339f4b234464e5e6c600c92a3e4ed1dfe512a1a88cf5f0cfde5b50379"
+      "size": 48876608,
+      "sha256": "8335167645894821ce2ad18a4cbd0b310984fbf7bed2e85837a440996f5bb839"
     }
   }
 }
