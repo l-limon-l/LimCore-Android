@@ -1,31 +1,31 @@
 {
-  "versionCode": 20,
-  "versionName": "2.1.4",
-  "date": "2026-10-09",
+  "versionCode": 21,
+  "versionName": "2.1.5",
+  "date": "2026-10-14",
   "notes": {
-    "ru": "- Исправлена проверка задержки для серверов, которые не открывают сайт проверки.\n- Исправлено автопереключение серверов в балансерах.",
-    "en": "- Fixed the delay test for servers that do not open the test site.\n- Fixed automatic server switching in balancers."
+    "ru": "- Обновлена иконка приложения.\n- Значок LimCore в быстрых настройках заменён на смайлик с прищуром.",
+    "en": "- Updated the app icon.\n- Replaced the LimCore Quick Settings icon with a smirking face."
   },
   "apks": {
     "arm64-v8a": {
       "file": "apk/LimCore-arm64-v8a.apk",
-      "size": 22934416,
-      "sha256": "c28a9a27eb96d85bab5971fe0123b26f4c4d036585a642f4f167a419547eb74d"
+      "size": 22935292,
+      "sha256": "c7c9fb6a09e1bf38356bd140c0ebbf25d0b59028bc6e6da1d5881e3ba27f7edd"
     },
     "armeabi-v7a": {
       "file": "apk/LimCore-armeabi-v7a.apk",
-      "size": 23441578,
-      "sha256": "dc1a5b6e28b8367064b5fefc9299b516b96773b3f0e201a83631f0d120cffaee"
+      "size": 23442342,
+      "sha256": "7368a17b9a215ecbf28b6c3d269ba1c29f550bd840ff94a553a476da7d9a1687"
     },
     "x86_64": {
       "file": "apk/LimCore-x86_64.apk",
-      "size": 23954781,
-      "sha256": "156015504afd25882622b9be6bf5bbf6b534c139ad901501978cc1a506d262a1"
+      "size": 23956253,
+      "sha256": "4279ee0e62705fe25cf99919a15f75a1cd366c8a8260ee66ec2452f6393fd1d6"
     },
     "universal": {
       "file": "apk/LimCore-universal.apk",
-      "size": 48876608,
-      "sha256": "8335167645894821ce2ad18a4cbd0b310984fbf7bed2e85837a440996f5bb839"
+      "size": 48878624,
+      "sha256": "2bbc5b5b45c0bd4b45e079c506befe9919d197be755f1bad757cd59fdccf7a66"
     }
   }
 }
