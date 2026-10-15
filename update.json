@@ -1,31 +1,31 @@
 {
-  "versionCode": 22,
-  "versionName": "2.1.6",
-  "date": "2026-10-14",
+  "versionCode": 23,
+  "versionName": "2.1.7",
+  "date": "2026-10-15",
   "notes": {
-    "ru": "- Значок LimCore в быстрых настройках перерисован: теперь это смайлик «хмм» с прищуром и руками у подбородка.",
-    "en": "- Redrew the LimCore Quick Settings icon as the squinting \"hmm\" face with hands at the chin."
+    "ru": "- Исправлена ошибка, из-за которой после переподключения в журнал Xray попадали сетевые пакеты.\n- Меньше нагрузка на процессор: при выключенном экране приложение реже обновляет статистику и уведомление, журнал Xray по умолчанию ведётся на уровне warning.",
+    "en": "- Fixed network packets ending up in the Xray log after reconnecting.\n- Lower CPU use: with the screen off the app updates traffic and the notification less often; the Xray log level is warning by default."
   },
   "apks": {
     "arm64-v8a": {
       "file": "apk/LimCore-arm64-v8a.apk",
-      "size": 22936256,
-      "sha256": "a4297bb28497c6ec57dd912a79a1aae271a1e4cc4862d9df53c2435cf0538b46"
+      "size": 22939220,
+      "sha256": "b9b7073bbfed41054e73d80c347fe11247e1c1d1b40cdc9dafdcfa3a058a337b"
     },
     "armeabi-v7a": {
       "file": "apk/LimCore-armeabi-v7a.apk",
-      "size": 23443310,
-      "sha256": "da9a05ee9b628a86b22d1cd908a775bb86241a816e6fa60ddbb7e7b07218accc"
+      "size": 23445838,
+      "sha256": "a70b71c3230902385c6d35d2f4ac364a141cccf1c8727c209a43a3bf8e5914e0"
     },
     "x86_64": {
       "file": "apk/LimCore-x86_64.apk",
-      "size": 23957221,
-      "sha256": "8dfdb65b061b7403b12f61eba9b77a0f18d9707b6c91941b38de8de4c08447ae"
+      "size": 23958541,
+      "sha256": "b91c99d70690e024d42616cbc2ec06337d233c083937f26d25581ce1888036f8"
     },
     "universal": {
       "file": "apk/LimCore-universal.apk",
-      "size": 48879592,
-      "sha256": "d2b3fc4445c2256404825fb562812a52d75bf60785fdcf2340bc4fd6fb0002c9"
+      "size": 48883936,
+      "sha256": "50b7de80c7d2fa3e972a0bdee289425bce824b720fdac0d8974590fec46a4e67"
     }
   }
 }
