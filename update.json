@@ -1,31 +1,31 @@
 {
-  "versionCode": 25,
-  "versionName": "2.1.9",
+  "versionCode": 26,
+  "versionName": "2.1.10",
   "date": "2026-10-15",
   "notes": {
-    "ru": "- Новая вкладка «Мем-настройки»: 🤔 вместо шара при проверке задержки и лицо «хмм» на плитке быстрых настроек.\n- По умолчанию на плитке снова щит.",
-    "en": "- New \"Meme settings\": 🤔 instead of the orb in delay tests and the \"hmm\" face on the Quick Settings tile.\n- The tile shows the shield again by default."
+    "ru": "- Вернулась прежняя иконка приложения и щит в уведомлении.\n- 🤔 в мем-настройках крутится плавнее.",
+    "en": "- The previous app icon and the shield in the notification are back.\n- 🤔 in the meme settings spins more smoothly."
   },
   "apks": {
     "arm64-v8a": {
       "file": "apk/LimCore-arm64-v8a.apk",
-      "size": 23112665,
-      "sha256": "39f1cc2a8b0b1888bbcefda99a853fc0ebbcc136644d5ea4187907af454ff1a3"
+      "size": 23172433,
+      "sha256": "3af8010808566ab06060ab86bb80b66b8f920ee15149b0954652785b6d392e31"
     },
     "armeabi-v7a": {
       "file": "apk/LimCore-armeabi-v7a.apk",
-      "size": 23619283,
-      "sha256": "dab0039e7f923a6efb42b9a109ee83ad2a70d1eee91791f615d128bbf5377190"
+      "size": 23679047,
+      "sha256": "a7ce9be62c5f09375de23755e4d98fc426005eaaad547920eea76b6145e5ef5a"
     },
     "x86_64": {
       "file": "apk/LimCore-x86_64.apk",
-      "size": 24131986,
-      "sha256": "b73295555b6a2e099a7f0903dfe59e71a906ae9a9dd3ff7621cd9d87799b828b"
+      "size": 24191754,
+      "sha256": "999b00cc0f6015c58d0b4eb412fe5befcb30801018f5b99983f31c685cd7c9d7"
     },
     "universal": {
       "file": "apk/LimCore-universal.apk",
-      "size": 49057381,
-      "sha256": "03fdc7be718b7784c152ecca2ac405b353200c3f0b4cdf91a888ef4f68d7c3cd"
+      "size": 49117145,
+      "sha256": "2a13cef7ddfd4d7e3a39ff174a9c6c5faaead293f05051f2de0df27f1372190d"
     }
   }
 }
