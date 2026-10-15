@@ -1,31 +1,31 @@
 {
-  "versionCode": 23,
-  "versionName": "2.1.7",
+  "versionCode": 24,
+  "versionName": "2.1.8",
   "date": "2026-10-15",
   "notes": {
-    "ru": "- Исправлена ошибка, из-за которой после переподключения в журнал Xray попадали сетевые пакеты.\n- Меньше нагрузка на процессор: при выключенном экране приложение реже обновляет статистику и уведомление, журнал Xray по умолчанию ведётся на уровне warning.",
-    "en": "- Fixed network packets ending up in the Xray log after reconnecting.\n- Lower CPU use: with the screen off the app updates traffic and the notification less often; the Xray log level is warning by default."
+    "ru": "- Значок в уведомлении заменён на новый логотип LimCore.",
+    "en": "- The notification icon is the new LimCore logo."
   },
   "apks": {
     "arm64-v8a": {
       "file": "apk/LimCore-arm64-v8a.apk",
-      "size": 22939220,
-      "sha256": "b9b7073bbfed41054e73d80c347fe11247e1c1d1b40cdc9dafdcfa3a058a337b"
+      "size": 22939440,
+      "sha256": "14cfab69771fe3599105dc90f19856af3611fcad63501ef13880af65b68b0297"
     },
     "armeabi-v7a": {
       "file": "apk/LimCore-armeabi-v7a.apk",
-      "size": 23445838,
-      "sha256": "a70b71c3230902385c6d35d2f4ac364a141cccf1c8727c209a43a3bf8e5914e0"
+      "size": 23446054,
+      "sha256": "558c54fd9ec155f7137dca5969629fbbf3e1030d0098e556ef168c494b415763"
     },
     "x86_64": {
       "file": "apk/LimCore-x86_64.apk",
-      "size": 23958541,
-      "sha256": "b91c99d70690e024d42616cbc2ec06337d233c083937f26d25581ce1888036f8"
+      "size": 23958761,
+      "sha256": "b716692be45fee16025799e4cf2ea43ea415b0d7d6133992f5148a5bb28d5ab5"
     },
     "universal": {
       "file": "apk/LimCore-universal.apk",
-      "size": 48883936,
-      "sha256": "50b7de80c7d2fa3e972a0bdee289425bce824b720fdac0d8974590fec46a4e67"
+      "size": 48884152,
+      "sha256": "860f5a30ecb91bafb17e05bc0cab73ba4012e4802147c691e0e624745673b2b5"
     }
   }
 }
