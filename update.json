@@ -1,31 +1,31 @@
 {
-  "versionCode": 26,
-  "versionName": "2.1.10",
-  "date": "2026-10-15",
+  "versionCode": 27,
+  "versionName": "2.1.11",
+  "date": "2026-10-16",
   "notes": {
-    "ru": "- Вернулась прежняя иконка приложения и щит в уведомлении.\n- 🤔 в мем-настройках крутится плавнее.",
-    "en": "- The previous app icon and the shield in the notification are back.\n- 🤔 in the meme settings spins more smoothly."
+    "ru": "- В мем-настройках можно включить анимированный смайлик 😎 вместо щита на кнопке при подключённом VPN.",
+    "en": "- Meme settings can now show an animated 😎 emoji instead of the shield on the button while the VPN is connected."
   },
   "apks": {
     "arm64-v8a": {
       "file": "apk/LimCore-arm64-v8a.apk",
-      "size": 23172433,
-      "sha256": "3af8010808566ab06060ab86bb80b66b8f920ee15149b0954652785b6d392e31"
+      "size": 23249238,
+      "sha256": "181d7882ca8a45d8790b330a1e19fa09471cc133c6b888e1d3ac46d44ed016fd"
     },
     "armeabi-v7a": {
       "file": "apk/LimCore-armeabi-v7a.apk",
-      "size": 23679047,
-      "sha256": "a7ce9be62c5f09375de23755e4d98fc426005eaaad547920eea76b6145e5ef5a"
+      "size": 23755852,
+      "sha256": "e848bfb5cc6f770509d767325b926cb4ff45a4653ecdfcf48f98e3487911ceaf"
     },
     "x86_64": {
       "file": "apk/LimCore-x86_64.apk",
-      "size": 24191754,
-      "sha256": "999b00cc0f6015c58d0b4eb412fe5befcb30801018f5b99983f31c685cd7c9d7"
+      "size": 24268555,
+      "sha256": "5027273e91aadb7f888d5d183b843b82015a4bfed026dc01c7d2a5a0d0484179"
     },
     "universal": {
       "file": "apk/LimCore-universal.apk",
-      "size": 49117145,
-      "sha256": "2a13cef7ddfd4d7e3a39ff174a9c6c5faaead293f05051f2de0df27f1372190d"
+      "size": 49193946,
+      "sha256": "8ce49621b2995520915f34d622b6b28c378e60dcbe4be4595514a56f8cafb64a"
     }
   }
 }
