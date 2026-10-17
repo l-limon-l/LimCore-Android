@@ -1,31 +1,31 @@
 {
-  "versionCode": 29,
-  "versionName": "2.2.1",
+  "versionCode": 30,
+  "versionName": "2.2.2",
   "date": "2026-10-17",
   "notes": {
-    "ru": "- Исправлено: кнопка LimCore в шторке не включала VPN на некоторых телефонах (OnePlus с Android 16).",
-    "en": "- Fixed the LimCore Quick Settings tile not turning the VPN on on some phones (OnePlus with Android 16)."
+    "ru": "- Исправлено: VPN не включался из шторки и по ссылке, если в списке не был выбран сервер. Теперь подключается к первому.",
+    "en": "- Fixed the VPN not turning on from the Quick Settings tile or a link when no server was selected: it now connects to the first one."
   },
   "apks": {
     "arm64-v8a": {
       "file": "apk/LimCore-arm64-v8a.apk",
-      "size": 23311170,
-      "sha256": "7c59b665a418316913bbfe7816bda6a9708d8cfcab73e5c5730ff855c174bf0d"
+      "size": 23311202,
+      "sha256": "f4e2483003755ab025be14c9f19f49e16e4ae38b1507cfb0cace15d29e102017"
     },
     "armeabi-v7a": {
       "file": "apk/LimCore-armeabi-v7a.apk",
-      "size": 23815762,
-      "sha256": "3db67e2554103794f02c18dcf091b4df4d0c350f50a04601c6ab84982b262f99"
+      "size": 23815794,
+      "sha256": "ab6afbd216d23360b7dfb7a453e5e553417d90c28c41d258a95dfef75db37feb"
     },
     "x86_64": {
       "file": "apk/LimCore-x86_64.apk",
-      "size": 24331464,
-      "sha256": "6f4c486b2d9f946945d366fe9f1027073bf227ab87986f55e14603a99292e544"
+      "size": 24331496,
+      "sha256": "818d895ce275561c1dbacb44a25f43e45c9ce874d15953bad2f348516a0bead9"
     },
     "universal": {
       "file": "apk/LimCore-universal.apk",
-      "size": 49321465,
-      "sha256": "9cf9f07cc4ce6f6734e2ac066812b6521cdfe078e2b850c6476cb46ca9b1b8e7"
+      "size": 49321497,
+      "sha256": "be1286ac4ac0cb92793648249b3e9f4c24a1aa05da1f0ddc4de1edc56b8b6130"
     }
   }
 }
