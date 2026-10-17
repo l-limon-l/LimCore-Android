@@ -1,31 +1,31 @@
 {
-  "versionCode": 28,
-  "versionName": "2.2.0",
+  "versionCode": 29,
+  "versionName": "2.2.1",
   "date": "2026-10-17",
   "notes": {
-    "ru": "- AntiFilter (byedpi): обход DPI по пути к серверу, в настройках туннеля.\n- Ссылки hysteria2:// и hy2:// (обфускация salamander, смена портов). В ручном вводе Hysteria2 появились пароль обфускации, смена портов и таймаут UDP.\n- Группы конфигов: свои группы для добавленных вручную серверов, серверы можно переносить между группами.\n- Android TV: приложение есть в лаунчере телевизора. С телефона можно отправить ссылку: «+» → «Отправить с телефона», отсканировать QR и вставить ссылку на открывшейся странице.\n- Прокси для приложений по умолчанию в режиме «Обход», русские приложения в нём включены сразу. Если не нужно, выключите.\n- Предупреждение о сбитых дате и времени: из-за них не подключаются VMess и REALITY.\n- Если подписка не открылась из-за сертификата, приложение предложит повторить без проверки сертификата.",
-    "en": "- AntiFilter (byedpi): gets past DPI on the way to the server, in the tunnel settings.\n- hysteria2:// and hy2:// links (salamander obfuscation, port hopping); manual Hysteria2 entry gained the obfuscation password, port hopping and UDP idle timeout.\n- Config groups: your own groups for hand-added servers; servers can be moved between them.\n- Android TV: the app shows up in the TV launcher. Links can be sent from a phone: \"+\" → \"Send from phone\", scan the QR code and paste the link on that page.\n- Per-app proxy starts in Bypass mode with Russian apps already selected; turn them off if you don't need it.\n- A warning when the date and time are off (VMess and REALITY fail to connect then).\n- When a subscription fails over its certificate, the app offers to retry without checking it."
+    "ru": "- Исправлено: кнопка LimCore в шторке не включала VPN на некоторых телефонах (OnePlus с Android 16).",
+    "en": "- Fixed the LimCore Quick Settings tile not turning the VPN on on some phones (OnePlus with Android 16)."
   },
   "apks": {
     "arm64-v8a": {
       "file": "apk/LimCore-arm64-v8a.apk",
-      "size": 23310330,
-      "sha256": "bcbb184eaac4b0c4f03b1c13a2a12b538f6518836ee8d0a9cbf0123797fdd194"
+      "size": 23311170,
+      "sha256": "7c59b665a418316913bbfe7816bda6a9708d8cfcab73e5c5730ff855c174bf0d"
     },
     "armeabi-v7a": {
       "file": "apk/LimCore-armeabi-v7a.apk",
-      "size": 23815378,
-      "sha256": "efb0277a66e2c71c2a60dd0cecde86d5938276b4a5a3a7a007688978db184960"
+      "size": 23815762,
+      "sha256": "3db67e2554103794f02c18dcf091b4df4d0c350f50a04601c6ab84982b262f99"
     },
     "x86_64": {
       "file": "apk/LimCore-x86_64.apk",
-      "size": 24331016,
-      "sha256": "75b608042d6fdf7fa82a8425288649cd34de2dca3bf45edfef80521986fdc951"
+      "size": 24331464,
+      "sha256": "6f4c486b2d9f946945d366fe9f1027073bf227ab87986f55e14603a99292e544"
     },
     "universal": {
       "file": "apk/LimCore-universal.apk",
-      "size": 49320885,
-      "sha256": "12c5696480bb53ae315afdca098e6a763ee98525ed383952e1bce48ea4ad0e10"
+      "size": 49321465,
+      "sha256": "9cf9f07cc4ce6f6734e2ac066812b6521cdfe078e2b850c6476cb46ca9b1b8e7"
     }
   }
 }
