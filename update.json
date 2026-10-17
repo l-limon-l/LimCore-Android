@@ -1,31 +1,31 @@
 {
-  "versionCode": 32,
-  "versionName": "2.2.4",
+  "versionCode": 33,
+  "versionName": "2.2.5",
   "date": "2026-10-17",
   "notes": {
-    "ru": "- Торренты в обход VPN (включено по умолчанию): BitTorrent идёт напрямую, мимо сервера, и провайдер VPN больше не присылает предупреждения о торрентах. Выключается в настройках рядом с «Анализом пакетов».\n- Если приложение падает, оно показывает отчёт об ошибке: его можно скопировать или отправить разработчику.",
-    "en": "- Bypass torrents (on by default): BitTorrent goes direct, not through the server, so the VPN provider no longer warns about torrents. It can be turned off in the settings next to Packet analysis.\n- When the app crashes it shows an error report that can be copied or sent to the developer."
+    "ru": "- Исправлено: приложение закрывалось сразу после запуска, если провайдер подписки включает проверку задержки при открытии.",
+    "en": "- Fixed: the app closed right after start when the subscription provider turns on the delay test on open."
   },
   "apks": {
     "arm64-v8a": {
       "file": "apk/LimCore-arm64-v8a.apk",
-      "size": 23317694,
-      "sha256": "09c957e935f57a1fb3b831db4a056cd14e7b6ae4c8372bf6df22fcf2fe897819"
+      "size": 23317558,
+      "sha256": "8553a6cdf3e51b04874707586ca23420d5849789dc747ae74dd58dc51af58b4c"
     },
     "armeabi-v7a": {
       "file": "apk/LimCore-armeabi-v7a.apk",
-      "size": 23822286,
-      "sha256": "586dbbb02d4d65bf2508c81cd700ed42906544a93d572b4f8b260b5ddef873d3"
+      "size": 23822150,
+      "sha256": "6995a60b7bab547b6cb6d1596c07a75a72b5c920e8071221f613b0af43913cd2"
     },
     "x86_64": {
       "file": "apk/LimCore-x86_64.apk",
-      "size": 24337988,
-      "sha256": "213662e6eee5e8ba991d9d65e8d3c3c516f5cef7387e015302a524cc0a0249ed"
+      "size": 24337852,
+      "sha256": "31ade91dedf555e90c71da5031da88020d75e1584a80ef90c0f1d1bbbdac5838"
     },
     "universal": {
       "file": "apk/LimCore-universal.apk",
-      "size": 49327989,
-      "sha256": "b7203a3a3542d69833f2c6906a6a338d1f60f32be722880b133581d43e5b7e91"
+      "size": 49327853,
+      "sha256": "058bea4b3f8bb68aba9f1c2b28434280275c5b4ca88adc7409d836bfb7948651"
     }
   }
 }
