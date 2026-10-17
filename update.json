@@ -1,31 +1,31 @@
 {
-  "versionCode": 30,
-  "versionName": "2.2.2",
+  "versionCode": 31,
+  "versionName": "2.2.3",
   "date": "2026-10-17",
   "notes": {
-    "ru": "- Исправлено: VPN не включался из шторки и по ссылке, если в списке не был выбран сервер. Теперь подключается к первому.",
-    "en": "- Fixed the VPN not turning on from the Quick Settings tile or a link when no server was selected: it now connects to the first one."
+    "ru": "- Окно загрузки обновления теперь можно скрыть кнопкой «Скрыть» и пользоваться приложением, пока новая версия скачивается. Ход загрузки виден в «О приложении» → «Проверить обновления», нажатие на эту строку возвращает окно. После загрузки система, как и раньше, попросит подтвердить установку.",
+    "en": "- The update download window now has a Hide button, so you can keep using the app while the new version downloads. About → Check for updates shows the progress; tap it to bring the window back. Once it's downloaded the system asks to confirm the install, as before."
   },
   "apks": {
     "arm64-v8a": {
       "file": "apk/LimCore-arm64-v8a.apk",
-      "size": 23311202,
-      "sha256": "f4e2483003755ab025be14c9f19f49e16e4ae38b1507cfb0cace15d29e102017"
+      "size": 23311430,
+      "sha256": "8f4bfffdb38c9d899ddf8aaabfc36d1ce0bb93c5a8bd8b54401443a43f24cad9"
     },
     "armeabi-v7a": {
       "file": "apk/LimCore-armeabi-v7a.apk",
-      "size": 23815794,
-      "sha256": "ab6afbd216d23360b7dfb7a453e5e553417d90c28c41d258a95dfef75db37feb"
+      "size": 23816478,
+      "sha256": "0c28634ea97bd0b75719b7fa5df22fa882e715471866caba3b3a907ee01d949a"
     },
     "x86_64": {
       "file": "apk/LimCore-x86_64.apk",
-      "size": 24331496,
-      "sha256": "818d895ce275561c1dbacb44a25f43e45c9ce874d15953bad2f348516a0bead9"
+      "size": 24332116,
+      "sha256": "fbe693219ee732e4612698c4128df391bad7d33eaaeddae630dbd3fba0f86383"
     },
     "universal": {
       "file": "apk/LimCore-universal.apk",
-      "size": 49321497,
-      "sha256": "be1286ac4ac0cb92793648249b3e9f4c24a1aa05da1f0ddc4de1edc56b8b6130"
+      "size": 49321985,
+      "sha256": "ab796cddfb3a61191d95e579f4f4991421543ab1789115dd1b67bc12b1d56281"
     }
   }
 }
