@@ -1,0 +1,16 @@
+{
+  "versionCode": 43,
+  "versionName": "2.3.5",
+  "date": "2026-10-24",
+  "notes": {
+    "ru": "- Маршрутизация переработана по образцу Happ: у каждой подписки и у списка своих серверов теперь свои профили маршрутизации; включение и выбор профиля — в меню подписки → «Маршрутизация».\n- Новый редактор правил в «Настройки → Правила маршрутизации»: Proxy, Direct и Block списком, порядок правил, «Глобальный прокси», выбор тегов geosite и geoip с поиском.\n- У каждого профиля свои geo-файлы с датой и размером загрузки; если файлы повреждены, при подключении LimCore предложит обновить их или подключиться без маршрутизации.\n- Импорт профилей Happ, INCY и v2RayTun ссылкой, из буфера обмена, по QR-коду или из подписки; экспорт профиля ссылкой. Подробнее о маршрутизации: https://limcore.org/docs/routing/",
+    "en": "- Routing reworked after Happ: every subscription and your own server list now have their own routing profiles; turn routing on and pick a profile in the subscription's menu → \"Routing\".\n- New rule editor in \"Settings → Routing rules\": Proxy, Direct and Block as lists, rule order, \"Global proxy\", a searchable geosite and geoip tag picker.\n- Each profile has its own geo files with download date and size; if they are damaged, LimCore offers to update them or connect without routing.\n- Import Happ, INCY and v2RayTun profiles from a link, the clipboard, a QR code or a subscription; export a profile as a link. More about routing: https://limcore.org/docs/routing/"
+  },
+  "apks": {
+    "universal": {
+      "file": "apk/LimCore-universal.apk",
+      "size": 49461930,
+      "sha256": "7ea3870747a33730e507cd5c52cf6762e1859bd6c2e5b71e19baec5ddccec230"
+    }
+  }
+}
